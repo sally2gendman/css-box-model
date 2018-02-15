@@ -9,11 +9,13 @@ body {
 }
 
 .container {
+  background-color: #000000;
   margin: 0 auto;
   width: 420px;
 }
 
 nav {
+  background-color: #000000;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
@@ -30,11 +32,14 @@ nav {
 }
 
 .content h3 {
-  font-size: 1.5em;
-  /* line-height: 1.5em; */
+  font-size: 1.3em;
+  padding-top: 5px;
 }
 
 .location {
+  border-bottom: 1px solid #777;
+  /* float: left; */
+  padding: 20px;
   width: 100%;
   background-color: #DBD9DB;
 }
@@ -43,10 +48,21 @@ nav {
   background-color: #ABA9AB;
 }
 
+.location h1 {
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
 .content {
   width: 90%;
+  display: inline-block;
 }
 
 .arrow {
-  width: 10%;
+  float: right;
+  margin-top: 7px;
+}
+
+.arrow-left {
+  margin-top: 5px;
 }
